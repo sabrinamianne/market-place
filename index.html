@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- <script src="js/scripts2.js"></script> -->
+    <meta charset="utf-8">
+    <title> Sugarlicious! The Best Candy Shop of Seattle! </title>
+  </head>
+  <body>
+    <header>
+      <div id="entete">
+        <strong><h1>Sugarlicous</h1></strong>
+        <h2><img src="img/front.png" alt="Candy Drawing" height="500px"></h2>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><strong><a href="#">WHERE WE ARE.</a></strong></li>
+        <li><strong><a href="#">OUR STORY.</a></strong></li>
+        <li><strong><a href="#">CONTACT.</a></strong></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <select class="form-control" id="products">
+              <option value="Jelly Candy">Jelly Candy</option>
+              <option value="Candy Bar">Candy Bar</option>
+              <option value="Jelly Beans">Jelly Beans</option>
+              <option value="Gums">Gum</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <select class="form-control" id="products2">
+              <option value="Chocolate">Chocolate</option>
+              <option value="Caramel">Caramels</option>
+              <option value="Cupcakes">Cupcakes</option>
+              <option value="Cookie">Cookies</option>
+            </select>
+            </br>
+
+            <button id="buy" type="submit" class="btn btn-red"> Submit ! </button>
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class-"row">
+          <div class="col-md-12">
+            <form id="formOne">
+              <div class="form-group">
+                <label for="Number">How much do you want?</label>
+                <input id="number" type="number" name="answer" class="form-control">
+                <button id="buyN" type="submit" class="btn btn-red"> Submit ! </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2> Your Cart: </h2>
+            <ul class="unstyled" id="user">
+            </ul>
+          </div>
+    </section>
+  </body>
+</html>

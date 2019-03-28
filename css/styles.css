@@ -1,0 +1,47 @@
+
+
+body {
+  background-image: url(../img/back.jpg);
+
+}
+
+header {
+  background-color: black;
+  height: 180px;
+  top: 0px;
+}
+
+
+#entete h2 {
+  text-align: center;
+}
+
+#entete img {
+  border: 5px solid black;
+}
+
+header h1 {
+ color: white;
+ text-align: center;
+ font-size: 6em;
+ font-family: cursive;
+ padding-bottom: 20px;
+
+}
+
+#products {
+  width: 400px;
+  border: 2px solid black;
+  margin-top: 500px;
+}
+
+#products2 {
+  width: 400px;
+  border: 2px solid black;
+  margin-top: 500px;
+  margin-left: 200px;
+}
+
+nav a {
+  color: black;
+}
